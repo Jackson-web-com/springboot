@@ -21,6 +21,7 @@ public class MyController {
     @RequestMapping("/out")
     @ResponseBody
     public String out(){
+        System.out.println("");
         return "success";
     }
 
